@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(195, 213, 250);
+}
+
+
+main{
+    width: 100%;
+}
+
+.contenido-muestra{
+    display: inline;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-muestra p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 1% 5% 2% 3%;
+}
+
+.texto-entrada{
+    background-color: rgb(195, 213, 250);
+    border: none;
+    width: 50%;
+    margin: 5px 5% 2% 2%;
+    padding: 1% 2% 5% 1%;
+    resize: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    height: 70%;
+}
+
+.texto-entrada:focus{
+    border: none;
+    background-color: rgb(195, 213, 250);
+    outline: none;
+}
+
+
+.caja-contenido{
+    background-color: aliceblue;
+    width: 30%;
+    padding: 1% 1% 5% 1%;
+    margin-right: 4%;
+    float: right;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.caja-contenido .resultado{
+    color: #888;
+    text-align: left;
+}
+
+.caja-contenido h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.caja-contenido p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.imgMuneco{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.btn{
+    border-radius: 20px;
+    width: 25%;
+    height: 5%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1% 3%;
+    margin: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.encriptar{
+    background-color: rgb(132, 144, 247);
+    color: #fff;
+    border: 1px solid rgb(63, 88, 110);
+}
+
+.desencriptar{
+    background-color: aliceblue;
+    color: rgb(132, 144, 247);
+    border: 1px solid rgb(78, 151, 219);
+}
+
+.copiar{
+    background-color: rgb(160, 190, 250);
+    display: inline;
+    margin: auto 0 0 15%;
+}
+
+.encriptar:hover{
+    background-color: rgb(158, 173, 238);
+    transition: .5s all;
+    border: 1px solid rgb(47, 68, 87);
+}
+
+.desencriptar:hover{
+    background-color: rgb(216, 225, 236);
+    transition: .5s all;
+    border: 1px solid rgb(65, 138, 207);
+}
+
+.copiar:hover{
+    background-color: rgb(120, 150, 250);
+    transition: .5s all;
+    border-color: white;
+}
+
+footer{
+    position: absolute;
+    width: 90%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}

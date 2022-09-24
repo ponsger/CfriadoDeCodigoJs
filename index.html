@@ -4,18 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <title>Encriptador y desencriptador en JavaScript</title>
 </head>
 <body>
     <header>
-
+        <img src="/img/Vector.svg" alt="Logo de alura"/>
     </header>
     <main>
+        <div class="contenido-muestra">
+            <textarea name="textarea" autofocus class="texto-entrada" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="caja-contenido">
+                <p id="resultado" class="resultado"></p>
+                <div id="Desaparece-click" class="desaparece">
+                    <img class="imgMuneco" src="/img/Muñeco.svg" alt="Muñeco de busqueda"/>
+                    <h1>Ningún mensaje fue encriptado</h1>
+                    <p>Ingresa el texto que desees cifrar o descrifrar</p>
+                </div>
+            </div>
+            <p>&#9888; Ingresa letras y números</p>
+            <button id="cifrar" class="btn encriptar">Cifrar</button>
+            <button id="descifrar" class="btn desencriptar">Descifrar</button>
+            <button id="copiar" class="btn copiar">Copiar</button>
+        </div>
 
+        
     </main>
     <footer>
-        
+        Creado por Germán Pons
     </footer>
-    
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
