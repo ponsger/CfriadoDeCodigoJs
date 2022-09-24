@@ -136,3 +136,53 @@ footer{
     text-align: center;
     margin-top: 5%;
 }
+
+@media screen and (max-width: 480px){
+
+    .texto-entrada{
+
+        width: 90%;
+        margin: 5px 5% 2% 2%;
+        padding: 1% 2% 5% 1%;
+        font-size: 20px;
+        height: 200px;
+    }
+
+    .caja-contenido{
+        width: 90%;
+        display: inline-block;
+        height: 200px;
+        margin-bottom: 5%;
+    }
+
+    .caja-contenido .resultado{
+        color: #888;
+        text-align: left;
+    }
+    
+    
+    .caja-contenido h1{
+        font-size: 20px;
+        margin: 20px 10px;
+    
+    }
+    
+    .caja-contenido p{
+        font-size: 14px;
+    }
+
+    .imgMuneco{
+        width: 30%;
+        display: block;
+        margin: 5% auto;
+    }
+
+    .btn{
+        border-radius: 20px;
+        width: 30%;
+        height: 5%;
+        border: none;
+        font-size: 16px;
+        margin: 1%;
+    }
+}

@@ -9,7 +9,7 @@ var nuevapalabra=new String();
 function Cifrar(){
     console.log("Cifrado");
     let randomNumber=0;
-    if(!(writedText.length<160) || writedText.length>0){
+    if(!(writedText.length<160) || writedText.length==0){
         alert("No se puede cifrar un texto tan largo");
     }
     for(let i=0;i<(writedText.length*3);i++){
